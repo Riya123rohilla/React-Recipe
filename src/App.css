@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url("background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.auth-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.dashboard {
+  padding: 1rem;
+}
+
+.card2 {
+  background: white;
+  padding: 3rem;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  width: 450px;
+  height: 350px;
+  transition: all 0.4s ease; 
+  display: center;
+}
+.card2:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+  transform: translateY(-40px);
+}
+
+
+input, textarea, button {
+  display: center;
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #ff7b54;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff5733;
+}
+
+.error {
+  color: red;
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 1rem;
+
+}
+
+.fav {
+  border: 2px solid gold;
+}
+
+.toggle-text {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.toggle-text span {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toggle-text span:hover {
+  text-decoration: underline;
+}
+
+.auth-container h1 {
+  margin-bottom: 20px;
+}
+.card {
+  background: white;
+  padding: 3rem;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  height: 250px;
+  transition: all 0.4s ease; 
+  display: center;
+}
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+  transform: translateY(-40px);
+}
+
+.logoutbtn {
+  background-color: #ff7043;  
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  float: right;             
+  margin-right: 20px ; 
+  margin-top: -3em;    
+  width: auto;   
+
+}
+.logoutbtn:hover {
+  background-color: #ff5722; 
+}
+.explore-container {
+  padding: 30px;
+  text-align: center;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.recipe-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recipe-card h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.recipe-card a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: tomato;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.recipe-card a:hover {
+  background: darkred;
+}
+
